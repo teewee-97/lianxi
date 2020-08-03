@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    outline: none;
+}
+
+.wrap {
+    width: 100%;
+    height: 50px;
+    padding: 15px 0 5px 0;
+    background-color: #e0e0e0;
+}
+
+.logo {
+    width: 1200px;
+    height: 50px;
+    margin: 0px auto;
+    background: url(https://login.yiguo.com/Content/img/themes/logo.png) no-repeat;
+    position: relative;
+}
+
+.logo span {
+    font-size: 28px;
+    color: #008842;
+    position: absolute;
+    left: 240px;
+}
+
+.login_body {
+    width: 308px;
+    padding: 30px 20px 20px;
+    border: 1px solid #aaaaaa;
+    position: absolute;
+    top: 125px;
+    left: 900px;
+}
+
+.login_body p {
+    margin-bottom: 20px;
+}
+
+.body_a span {
+    font-size: 12px;
+    color: #878787;
+}
+
+.body_a span a {
+    color: forestgreen;
+}
+
+.span_a,
+.span_b {
+    background: url(https://login.yiguo.com/Content/img/bg_input.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #aaa;
+    position: absolute;
+    left: 20px;
+}
+
+.username,
+.password {
+    width: 254px;
+    height: 38px;
+    outline: none;
+    padding-left: 50px;
+}
+
+.span_a {
+    top: 71px;
+    background-position: 1px -119px;
+}
+
+.span_b {
+    top: 133px;
+    background-position: 1px -179px;
+}
+
+.math_ram {
+    width: 100px;
+    height: 38px;
+    outline: none;
+    padding-left: 50px;
+    background: url(https://login.yiguo.com/Content/img/bg_input.png) no-repeat;
+    background-position: 1px -119px;
+    border: 1px solid #aaa;
+    float: left;
+}
+
+.body_d a {
+    font-size: 13px;
+    color: #878787;
+    text-decoration: none;
+}
+
+.body_e span {
+    font-size: 12px;
+    color: #878787;
+}
+
+.body_f {
+    width: 306px;
+    height: 50px;
+    background-color: #008842;
+}
+
+.body_f a {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}

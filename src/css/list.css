@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    outline: none;
+}
+
+.header {
+    width: 100%;
+    height: 30px;
+}
+
+.header_one {
+    height: 30px;
+    width: 1200px;
+    margin: auto;
+}
+
+.one {
+    float: left;
+}
+
+.header_one .one_s {
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.header_one .one_p {
+    font-size: 13px;
+    line-height: 30px;
+    color: forestgreen;
+}
+
+.one img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.one_w {
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.one_w:hover {
+    color: forestgreen;
+}
+
+.one_u {
+    float: right;
+}
+
+.one_u li {
+    float: left;
+    list-style: none;
+    font-size: 13px;
+    line-height: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.one_u li a {
+    color: #646464;
+}
+
+.one_u span:hover {
+    color: forestgreen;
+}
+
+.neck {
+    width: 100%;
+    height: 78px;
+    background: #e0e0e0;
+}
+
+.neck_one {
+    width: 1200px;
+    height: 78px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.neck_one img {
+    margin-top: 12px;
+}
+
+.two_g {
+    width: 172px;
+    height: 42px;
+    border: 1px solid forestgreen;
+    margin-top: 12px;
+    background: #fff;
+}
+
+.two_c {
+    width: 28px;
+    height: 20px;
+    font-size: 20px;
+    color: forestgreen;
+    margin-left: 70px;
+}
+
+.two_s {
+    width: 530px;
+    height: 28px;
+    margin-top: 13px;
+}
+
+.neck_one .two_k {
+    width: 447px;
+    height: 28px;
+    background-color: #e0e0e0;
+    border: 1px solid forestgreen;
+    font-size: 12px;
+    color: grey;
+    float: left;
+    outline: none;
+}
+
+.two_n {
+    width: 81px;
+    height: 30px;
+    background-color: forestgreen;
+    font-size: 15px;
+    float: left;
+    border: none;
+}
+
+.two_u {
+    width: 530px;
+    height: 28px;
+    list-style: none;
+}
+
+.two_u li {
+    font-size: 12px;
+    float: left;
+    line-height: 28px;
+    margin-left: 5px;
+    color: grey;
+}
+
+.chest {
+    width: 100%;
+    height: 500px;
+    margin: 0px auto;
+    background-position: center !important;
+}
+
+.commodity {
+    width: 180px;
+    height: 38px;
+    background-color: forestgreen;
+    position: absolute;
+    left: 160px;
+    top: 108px;
+    text-align: center;
+    line-height: 38px;
+    color: white;
+}
+
+.menu ul {
+    list-style: none;
+    position: absolute;
+    left: 160px;
+    top: 142px;
+    display: none;
+}
+
+.menu ul li {
+    width: 180px;
+    height: 42px;
+    background-color: wheat;
+    text-align: center;
+}
+
+.cartlist {
+    position: absolute;
+    top: 142px;
+    left: 340px;
+    width: 230px;
+    height: 378px;
+    background-color: wheat;
+    display: none;
+}
+
+.cartlist .item {
+    display: none;
+    padding: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    line-height: 42px;
+    font-size: 14px;
+    color: #444;
+}
+
+.tummy {
+    width: 1200px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.tummy a {
+    text-decoration: none;
+    color: #646464;
+}
+
+.tummy a span {
+    margin-left: 10px;
+}
+
+.three_f {
+    background: url(http://static01.yiguo.com/www/images/floor_tit_icon.png) no-repeat left top;
+    color: #fff;
+}
+
+.three_b {
+    float: left;
+}
+
+.three_a {
+    float: right;
+    font-size: 13px;
+}
+
+.three_m {
+    position: relative;
+}
+
+three_m img {
+    width: 275px;
+    height: 463px;
+}
+
+.three_s {
+    position: absolute;
+    top: 0px;
+    left: 275px;
+}
+
+.three_s ul {
+    list-style: none;
+    width: 924px;
+    border: 1px solid #d5d5d5;
+}
+
+.three_s li img {
+    border: none;
+}
+
+.three_s li {
+    float: left;
+    overflow: hidden;
+    height: 230px;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.tummy_t {
+    width: 1200px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.tummy_t a {
+    text-decoration: none;
+    color: #646464;
+}
+
+.tummy_t a span {
+    margin-left: 10px;
+}
+
+.four_f {
+    background: url(http://static01.yiguo.com/www/images/floor_tit_icon.png) no-repeat left top;
+    color: #fff;
+}
+
+.four_b {
+    float: left;
+}
+
+.four_a {
+    float: right;
+    font-size: 13px;
+}
+
+.four_m img {
+    width: 275px;
+    height: 463px;
+}
+
+.four_m {
+    float: left;
+}
+
+.four_c {
+    position: relative;
+    float: left;
+    width: 923px;
+    height: 461px;
+    border: 1px solid #d5d5d5;
+}
+
+.four_d {
+    width: 234px;
+    height: 383px;
+    float: left;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.four_e {
+    width: 442px;
+    float: left;
+}
+
+.four_e ul {
+    width: 442px;
+}
+
+.four_e li {
+    width: 220px;
+    height: 191px;
+    float: left;
+    list-style: none;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.four_x {
+    width: 246px;
+    height: 461px;
+    float: left;
+}
+
+.four_z {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 654px;
+    height: 55px;
+    padding: 11px;
+    border-right: 1px solid #d5d5d5;
+    background: #fff;
+}
+
+.tummy_l {
+    width: 1200px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.tummy_l a {
+    text-decoration: none;
+    color: #646464;
+}
+
+.tummy_l a span {
+    margin-left: 10px;
+}
+
+.five_f {
+    background: url(http://static01.yiguo.com/www/images/floor_tit_icon.png) no-repeat left top;
+    color: #fff;
+}
+
+.five_b {
+    float: left;
+}
+
+.five_a {
+    float: right;
+    font-size: 13px;
+}
+
+.five_m img {
+    width: 275px;
+    height: 463px;
+}
+
+.five_m {
+    float: left;
+}
+
+.five_c {
+    position: relative;
+    float: left;
+    width: 923px;
+    height: 461px;
+    border: 1px solid #d5d5d5;
+}
+
+.five_d {
+    width: 234px;
+    height: 383px;
+    float: left;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.five_e {
+    width: 442px;
+    float: left;
+}
+
+.five_e ul {
+    width: 442px;
+}
+
+.five_e li {
+    width: 441px;
+    height: 191px;
+    float: left;
+    list-style: none;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.five_x {
+    width: 246px;
+    height: 461px;
+    float: left;
+}
+
+.five_z {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 654px;
+    height: 55px;
+    padding: 11px;
+    border-right: 1px solid #d5d5d5;
+    background: #fff;
+}
+
+.leg {
+    width: 100%;
+    height: 102px;
+    padding: 30px 0;
+    background-color: #e0e0e0;
+    margin-top: 50px;
+}
+
+.leg_a {
+    margin: 30px auto;
+    width: 1200px;
+    height: 42px;
+    display: flex;
+}
+
+.leg_a ul {
+    list-style: none;
+    width: 1200px;
+}
+
+.leg_a ul li {
+    margin-right: 58px;
+    float: left;
+    background: url(http://static01.yiguo.com/www/images/footer_service_icon.png) no-repeat left top;
+    width: 242px;
+    height: 42px;
+}
